@@ -28,7 +28,7 @@ public class GirisEkrani extends JFrame {
             String k = kullaniciAdi.getText();
             String s = new String(sifre.getPassword());
 
-            if(k.equals("admin") && s.equals("1234")) {
+            if(k.equals("ferhat") && s.equals("1234")) {
 
                 Veritabani.aktifKullanici = k;
 
